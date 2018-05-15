@@ -3,6 +3,10 @@ body {
     font-style: bold;
 }
 
+h3 {
+    font-style: italic;
+}
+
 h1 {
     font-size: 16;
     font-family: Georgia;
