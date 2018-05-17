@@ -1,6 +1,8 @@
 body {
     line-height: 300px;
     font-style: bold;
+    text-align: center;
+    padding: 40px;
 }
 
 h3 {
@@ -8,6 +10,12 @@ h3 {
 }
 
 h1 {
-    font-size: 16;
+    font-size: 25;
     font-family: Georgia;
+}
+
+.row {
+    line-height: 100px;
+    font-family: Georgia;
+    font-size: 22
 }
