@@ -1,5 +1,5 @@
 body {
-    line-height: 30px;
+    line-height: 50px;
     padding: 50px;
 }
 
@@ -13,11 +13,23 @@ h1 {
 }
 
 .row {
-    line-height: 100px;
+    padding: 20px;
+    padding-top: 60px;
+    line-height: 28px;
     font-family: Georgia;
-    font-size: 22
+    font-size: 18;
 }
 
 h4 {
     font-style: bold;
+    margin: 10px;
+    font-size: 8;
+}
+
+h2 {
+    font-size: 16;
+}
+
+p {
+    line-height: 25px;
 }
