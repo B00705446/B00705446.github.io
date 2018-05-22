@@ -1,6 +1,5 @@
 body {
-    line-height: 300px;
-    font-style: bold;
+    line-height: 30px;
     padding: 50px;
 }
 
@@ -17,4 +16,8 @@ h1 {
     line-height: 100px;
     font-family: Georgia;
     font-size: 22
+}
+
+h4 {
+    font-style: bold;
 }
