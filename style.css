@@ -42,7 +42,7 @@ img {
     position: sticky;
     top: 0;
 }
-.sticky-container{
-    width:100%;
-    height:1px;
+
+#imfauchon {
+    display:none;
 }

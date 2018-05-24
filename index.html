@@ -12,8 +12,8 @@
     <title>CV Han</title>
   </head>
   <body>
-    <div class="sticky-container"><img src="C:\Users\Suzanne\Desktop\administratif\photo suz.jpg" style="float:right"></div><h1>SUZANNE HAN (21 ans)</h1>
-    <h2>Recherche stage de 6 mois en finance d'entreprise</h2>
+    <img src="C:\Users\Suzanne\Desktop\administratif\photo suz.jpg" style="float:right"><h1>SUZANNE HAN (21 ans)</h1>
+    <h2 id="ex">Recherche stage de 6 mois en finance d'entreprise</h2>
 
     
     <div class="container-fluid">
@@ -45,7 +45,7 @@
           </p>
         </div>
         <div class="col-8"><h3>Expérience</h3>
-        <p><h4 class="spec">FAUCHON (Tokyo, Japon)</h4><br>
+          <img id="imfauchon" src="http://www.industrie-hoteliere.com/wp-content/uploads/sites/7/2016/01/fauchon_logo.png"/><p><span><h4 class="spec">FAUCHON (Tokyo, Japon)</h4></span><br>
         Juillet-Octobre 2017<br>
       Stage Marketing, secteur alimentation de luxe<br>
     <ul>
@@ -73,14 +73,18 @@ Séances hebdomadaires et suivi sur un an<br></p>
 Participation à des concours oenologiques étudiants<br></p>
 <h4 class="spec">Banque Alimentaire du Bas-Rhin</h4><br>
 <p>Bénévolat (période extrascolaire), tri de denrées alimentaires et livraison aux associations<br></p>
-<h4 class="spec">Conservatoire Régional de Strasbourg</h4><br>
-<p>Pratique du violon, du solfège, de l'orchestre, de la musique de chambre (10 ans)<br></p>
+<h4 class="spec">Conservatoire Régional de Strasbourg</h4>
+<p>Pratique du <span onmouseover="PlaySound('mySound')" 
+    onmouseout="StopSound('mySound')" ><strong>violon</strong></span>, du solfège, de l'orchestre, de la musique de chambre (10 ans)</p>
+
+<audio id='mySound' src='http://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg'/><br>
 </div>
     </div>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./javascript.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
