@@ -1,7 +1,7 @@
-var spectrum = ['#f00', '#f66', '#969', '#00F', '#0FB53F'];
+var spectrum = ['#fad1d', '#f7bbb', '#f4a4a4', '#f28d8d', '#ef7676', '#ed6464', '#ec5f5f', '#ea4848', '#e73232', '#e41b1b'];
 var cycle = spectrum.length-1;
 
-var speed = 300;
+var speed = 200;
 var i = 0;
     window.setInterval(function(){
     document.getElementById('ex').style.color = spectrum[i];
